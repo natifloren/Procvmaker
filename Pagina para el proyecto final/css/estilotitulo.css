@@ -1,0 +1,61 @@
+/* Estilos para el título */
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 2px 2px #c64e00;
+
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #cecac0;
+    position: relative;
+  }
+  
+  .titulo  h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+  }
+  
+  /* Estilos para los efectos de fiesta */
+  .titulo:before,
+  .titulo:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0056;
+    border-radius: 50%;
+    animation: party 1s infinite ease-in-out;
+  }
+  
+  .titulo:before {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .titulo:after {
+    top: 160px;
+    right: 20px;
+  }
+  
+  @keyframes party {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
