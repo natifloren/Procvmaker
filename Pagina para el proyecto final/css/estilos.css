@@ -35,15 +35,42 @@ header .logotipo {
 	color: var(--rojo);
 	font-size: 80px;
 }
+
+header .logo2 {
+	position: left;
+	top: 20px;
+	right: 0px;
+	font-size: 80px;
+	color: #fff;
+	text-shadow: 0 0 10px #ff0, 0 0 20px rgb(219, 140, 36), 0 0 30px rgb(255, 0, 0), 0 0 40px #ff0, 0 0 50px #ff0;
+}
+.logo2 {
+	display: inline-block;
+    animation: destello 1s ease-in-out infinite;
+}
+/* Animación de las letras */
+@keyframes logo2 {
+	0% {
+		opacity: 1;
+	  }
+	  50% {
+		opacity: 0.5;
+	  }
+	  100% {
+		opacity: 1;
+	  }
+
+}
+
 header .subtitulo {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: small;
-	color: #AAA;
-	font-size: 25px;
+	color: #0c0808;
+	font-size: 20px;
 }
 
 header nav a {
-	color: #AAA;
+	color: #644a4a;
 	text-decoration: none;
 	margin-right: 20px;
 }
@@ -55,18 +82,6 @@ header nav a.activo {
 
 
 /* ---- ----- ----- Bienvenida ----- ----- ----- */
-.bienvenida {
-	font-size: 16px;
-	min-height: 40.62em;
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(backdrop.jpg);
-	background-position: center center;
-	background-size: cover;
-	margin-bottom: 3.12em;
-	display: flex;
-	align-items: end;
-}
-
 .bienvenida .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
@@ -86,37 +101,17 @@ header nav a.activo {
 	margin-bottom: 1.25em;
 }
 
-.bienvenida .boton {
-	background: rgba(0,0,0, 0.5);
-	border: none;
-	border-radius: 0.31em;
-	padding: 0.93em 1.87em;
-	color: #fff;
-	margin-right: 1.25em;
-	cursor: pointer;
-	transition: .3s ease all;
-	font-size: 1.12em;
-}
-
-.bienvenida .boton:hover {
-	background: #fff;
-	color: #000;
-}
-
-.bienvenida .boton i {
-	margin-right: 1.25em;
-}
 
 h2 {
 	text-align: center;
-	margin-top: 50px;
-	font-size: 2rem;
+	margin-top: 5px;
+	font-size: 1rem;
   }
   
   .slider-frame {
-	width: 1280px;
+	width: 1080px;
 	height: auto;
-	margin: 50px auto 0;
+	margin: 20px auto 0;
 	overflow: hidden;
 	animation: slide 16s infinite linear ease-in-out;
   }
@@ -124,12 +119,15 @@ h2 {
   .slider-frame ul {
 	display: flex;
 	padding: 0;
-	width: 100%;
+	width: 200%;
   }
   
-  .slider-frame li {
+  .slider-frame li h2 {
 	list-style: none;
 	width: 100%;
+  }
+  .slider-frame li {
+	align-content: space-between;
   }
   
   .slider-frame img {
@@ -167,5 +165,10 @@ h2 {
 		margin-left: -400%;
 	}
 }
-
+.text {
+	font-size: 20px;
+	position: center;
+	color: #fff;
+	text-shadow: 0 0 10px rgb(94, 60, 9), 0 0 20px rgb(219, 140, 36), 0 0 30px rgb(255, 0, 0), 0 0 40px rgb(82, 82, 79), 0 0 50px #ff0;
+}
 	 

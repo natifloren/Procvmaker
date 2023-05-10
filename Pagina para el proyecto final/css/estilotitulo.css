@@ -11,8 +11,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    background-color: #cecac0;
+    height: 100px;
+    background-color: #0e0000;
     position: relative;
   }
   
@@ -24,7 +24,7 @@ h1{
     text-shadow: 2px 2px #ff0000;
   }
   
-  /* Estilos para los efectos de fiesta */
+  /* Estilos para los efectos del circulo fiestero */
   .titulo:before,
   .titulo:after {
     content: "";
@@ -42,7 +42,7 @@ h1{
   }
   
   .titulo:after {
-    top: 160px;
+    top: 60px;
     right: 20px;
   }
   
@@ -58,4 +58,80 @@ h1{
       transform: scale(1);
     }
   }
+  
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #cecac0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #968181;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+h3
+.title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      background-color: #cecac0;
+      position: relative;
+    }
+    
+    .titulo  h3 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: white;
+      text-shadow: 2px 2px #ff0000;
+    }
+
   
