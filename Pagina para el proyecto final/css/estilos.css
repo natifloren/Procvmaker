@@ -33,32 +33,10 @@ header .logotipo {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
 	color: var(--rojo);
-	font-size: 70px;
+	font-size: 90px;
 }
 
-header .logo2 {
-	position: left;
-	top: 200px;
-	right: 0px;
-	font-size: 80px;
-	color: #fff;
-	text-shadow: 0 10 1000px #ff0, 0 10 200px rgb(219, 140, 36), 0 0 30px rgb(255, 0, 0), 0 0 40px #ff0, 0 0 50px #ff0;
-}
-.logo2 {
-	display: inline-block;
-    animation: destello 1s ease-in-out infinite;
-}
-/* Animación de las letras */
-@keyframes logo2 {
-	0% {
-		opacity: 1;
-	  }
-	  50% {
-		opacity: 0.5;
-	  }
-	  100% {
-		opacity: 1;
-	  }
+
 
 }
 
@@ -69,16 +47,6 @@ header .subtitulo {
 	font-size: 20px;
 }
 
-header nav a {
-	color: #644a4a;
-	text-decoration: none;
-	margin-right: 20px;
-}
-
-header nav a:hover,
-header nav a.activo {
-	color: #FFF;
-}
 
 
 /* ---- ----- ----- Bienvenida ----- ----- ----- */
