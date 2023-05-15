@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/estilos.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<title>ProCV</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
 	<header>
@@ -17,7 +18,7 @@
 </body>
 
 <body>
-	<section1>	
+	<section>	
 	     <div class="bienvenida">
 			<div class="contenedor">
 				<h1 class="titulo">Bienvenidos</h1><link rel="stylesheet" href="css/estilotitulo.css">
@@ -45,11 +46,11 @@
 				
 			</div>
 		</div>
-</Section1>
+</section>
 </body>
 
 <body>
-	<section2>
+	<section>
 		<div class="titulo">
 			<div class="contenedor">
 				<h3 class="container">COMO HACER UN BUEN CURRICULUM</h3><link rel="stylesheet" href="css/estilotitulo.css">
@@ -103,13 +104,53 @@
 							</ul>
 			</div>
 		</div>
-    </section2>
+    </section>
 </body>
 
 <body>
-	 <section3>
-	      
-		
+	 <section>
+		<div>
+		    <style>
+			.item1 { grid-area: header; }
+			.item2 { grid-area: menu; }
+			.item3 { grid-area: main; }
+			.item4 { grid-area: right; }
+			.item5 { grid-area: footer; }
+			
+			.grid-container {
+			  display: grid;
+			  grid-template-areas:
+				'header header header header header header'
+				'menu main main main right right'
+				'menu footer footer footer footer footer';
+			  gap: 10px;
+			  background-color: #c3d3f5;
+			  padding: 10px;
+			}
+			
+			.grid-container > div {
+			  background-color: rgba(255, 255, 255, 0.8);
+			  text-align: center;
+			  padding: 20px 0;
+			  font-size: 30px;
+			}
+			</style>
+			</head>
+			<body>
+			
+			<h1>Grid Layout</h1>
+			
+			<p>This grid layout contains six columns and three rows:</p>
+			
+			<div class="grid-container">
+			  <div class="item1">Header</div>
+			  <div class="item2">Menu</div>
+			  <div class="item3">Main</div>  
+			  <div class="item4">Right</div>
+			  <div class="item5">Footer</div>
+			</div>
+		</div>	
+	</section>	
 		
 	</body>	
 	
