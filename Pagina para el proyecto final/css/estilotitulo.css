@@ -68,10 +68,10 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 10px 20px;
-  background-color: #968181;
+  padding: 0px 20px;
+  background-color: #f0dddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 

@@ -15,7 +15,7 @@ body {
 }
 
 .contenedor {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -47,15 +47,11 @@ header .subtitulo {
 
 /* ---- ----- ----- Bienvenida ----- ----- ----- */
 .bienvenida .contenedor {
-	margin: 0 auto;
+	margin: 10 auto;
 	margin-bottom: 6.25em;
 }
 
-.bienvenida .titulo {
-	font-weight: 600;
-	font-size: 3.12em;
-	margin-bottom: 0.4em;
-}
+
 
 .bienvenida .descripcion {
 	font-weight: normal;
@@ -66,9 +62,10 @@ header .subtitulo {
 }
 
 
-h2 {
+h3 {
+	padding-top: 10px;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 15px;
 	font-size: 1rem;
   }
   

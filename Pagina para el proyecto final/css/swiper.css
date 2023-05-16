@@ -1,18 +1,32 @@
 .swiper {
-    width: 600px;
+    padding-bottom: 10px;
+    width: 800px;
     height: 300px;
 }
 
    .swiper-slide {
        background-position: center;
        background-size: cover;
-       width: 250px;
+       width: 300px;
 }
 
-   .swiper-slide img {
-    display: block;
-    width: 100%;
+         .swiper-slide-img {
+           display: block;
+           width: 100%;
 }
+
+         .swiper-wrapper {
+             display: flex;
+             flex-wrap: ;
+             align-items: center;
+  }
+  
+  
+  
+  .swiper-wrapper img {
+    width: 80%;
+    height: auto;
+  }
 
 .icons {
     padding: 0 350px 50px 350px;
