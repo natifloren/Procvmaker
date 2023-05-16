@@ -1,78 +1,36 @@
 /* Estilos para el título */
 h1{
-    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: white;
-    text-shadow: 2px 2px #c64e00;
+    text-shadow: 3px 3px #c64e00;
 
 }
 .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    background-color: #0e0000;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5); /* RGBA con transparencia */;
     position: relative;
   }
   
-  .titulo  h1 {
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: white;
-    text-shadow: 2px 2px #ff0000;
-  }
-  
-  /* Estilos para los efectos del circulo fiestero */
-  .titulo:before,
-  .titulo:after {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #ff0056;
-    border-radius: 50%;
-    animation: party 1s infinite ease-in-out;
-  }
-  
-  .titulo:before {
-    top: 20px;
-    left: 20px;
-  }
-  
-  .titulo:after {
-    top: 60px;
-    right: 20px;
-  }
-  
-  @keyframes party {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(2);
-      opacity: 0;
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
   
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   margin: 0;
   padding: 0;
   background-color: #cecac0;
 }
 
 .container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0px 20px;
-  background-color: #f0dddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 10px;
+  margin: 1 auto;
+  padding: 10px 10px;
+  background-color: #0e0202;
+  box-shadow: 100 0 10px rgba(66, 45, 21, 0.1);
 }
 
 h1 {

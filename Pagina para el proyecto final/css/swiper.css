@@ -1,5 +1,6 @@
 .swiper {
-    padding-bottom: 10px;
+    position: initial;
+    padding-bottom: 20px;
     width: 800px;
     height: 350px;
 }
@@ -27,6 +28,40 @@
     width: 80%;
     height: auto;
   }
+
+
+  
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+.swiper-button-prev::before {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.swiper-button-next::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
 
 .icons {
     padding: 0 350px 50px 350px;
