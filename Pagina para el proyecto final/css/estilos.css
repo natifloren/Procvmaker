@@ -36,7 +36,7 @@ header .subtitulo {
 }
 
 body {
-	background-image: url('ruta-de-tu-imagen.jpg');
+	background-image: url('..back1.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
