@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+.seccion {
+	margin-top: 30px;
+	margin-bottom: 30px;
+  }
 
 .contenedor {
 	width: 80%;
@@ -16,7 +20,7 @@ header {
 }
 
 header .contenedor {
-	display: flex;
+	display: -webkit-box;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -60,13 +64,61 @@ h3 {
   }
   
 .text {
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 20px;
 	position: center;
 	color: #fff;
 	text-shadow: 0 0 10px rgb(10, 6, 0), 0 0 20px rgb(82, 0, 0), 0 0 30px rgb(82, 0, 0), 0 0 40px rgb(82, 82, 79), 0 0 50px #ff0;
 }
 	 
-body {
-	image-rendering: optimizeQuality;
-}
+#app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0d9a0;
+  }
+  
+  form {
+	width: 400px;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333333;
+  }
+  
+  input,
+  textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+  }
+  
+  textarea {
+	height: 100px;
+  }
+  
+  button[type="submit"] {
+	width: 100%;
+	background-color: #4caf50;
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #45a049;
+  }
+  

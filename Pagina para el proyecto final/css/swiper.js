@@ -17,3 +17,5 @@ var swiper = new Swiper(".swiper", {
         disableOnInteraction: true, // Permite que el autoplay continúe incluso cuando el usuario interactúa con el Swiper
       },
   });
+
+  

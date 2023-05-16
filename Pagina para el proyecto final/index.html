@@ -32,8 +32,8 @@
 	     <div class="bienvenida">
 			<div class="contenedor">
 				<h1 class="titulo">"Cree en tu potencial."y "Haz que suceda."</h1><link rel="stylesheet" href="css/estilotitulo.css">
-	</section>
-
+			<h3 class="text">Un currículum profesional y atractivo que se adapte a tu futuro empleador y trabajo.
+			
 	<section id="Swiper slide">
         <div class="swiper">
 			
@@ -70,22 +70,41 @@
     <script src="css/swiper.js" ></script>
 <body>
 	
-	<section>
-			<h3 class="text">Bienvenido a nuestra página para crear currículums. Aquí aprenderas a crear un currículum profesional y atractivo en poco tiempo, nuestra plataforma es fácil de usar, puedes aprender lo que tu currículum necesita para que se adapte a tu futuro empleador y trabajo.
+	
 
-	No pierdas más tiempo y crea hoy mismo un currículum profesional y efectivo que te ayudará a conseguir el trabajo de tus sueños.</h4>
+	
 				</p>
 			</div>
 		</div>
 </section>
 </body>
+
+
 <body>
-	<section>
-		<div class="text">
-			<h4>COMO HACER UN BUEN CURRICULUM</h4>
-				<p class="descripcion">
+	<section class="seccion">
+		
+			<h4>Te gustaria recibir consejos y noticias, Subscribete!!!</h4>
+				
+			<div id="app">
+				<form @submit.prevent="submitForm">
+				  <div>
+					<label for="name">Nombre:</label>
+					<input type="text" id="name" v-model="formData.name" required>
+				  </div>
+				  <div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" v-model="formData.email" required>
+				  </div>
+				  <div>
+					<label for="message">Mensaje:</label>
+					<textarea id="message" v-model="formData.message" required></textarea>
+				  </div>
+				  <button type="submit">Enviar</button>
+				</form>
+			  </div>
+			
 					<body>
-						<div class="container">
+						
                            <h4>Tips que no se te pueden escapar!!!</h4>
 					
 							<ul>
