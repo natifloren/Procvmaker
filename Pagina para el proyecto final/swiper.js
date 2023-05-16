@@ -1,21 +1,14 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
+var swiper = new swiper(".mySwiper", {
+       effect: "coverflow",
+       grabCursor: true,
+       centeredSlides: true,
+       slidesPerView: "auto",
+       coverflowEffect: {
+         rotate:15,
+         strech:0,
+         depth:300,
+         modifier:1,
+         slideShadows: true,
+      },
     loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
   });

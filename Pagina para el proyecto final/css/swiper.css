@@ -4,13 +4,29 @@
 }
 
   .swiper-slide {
-     background-position: center;
-     background-size: :cover;
-     width:250px;
+       background-position: center;
+       background-size: cover;
+       width: 250px;
 }
 
-.swiper-slide img {
-    display: block
+   .swiper-slide img {
+    display: block;
     width: 100%;
-    
+}
+
+.icons {
+    padding: 0 350px 50px 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    font-size: 25px;
+    color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
