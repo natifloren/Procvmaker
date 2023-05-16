@@ -1,7 +1,7 @@
 .swiper {
     padding-bottom: 10px;
     width: 800px;
-    height: 300px;
+    height: 350px;
 }
 
    .swiper-slide {
@@ -11,13 +11,13 @@
 }
 
          .swiper-slide-img {
-           display: block;
+           display: auto;
+
            width: 100%;
 }
 
          .swiper-wrapper {
              display: flex;
-             flex-wrap: ;
              align-items: center;
   }
   
