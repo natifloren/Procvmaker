@@ -35,15 +35,6 @@ header .subtitulo {
 	font-size: 20px;
 }
 
-body {
-	background-image: url('..back1.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-  }
-  
-
-
 /* ---- ----- ----- Bienvenida ----- ----- ----- */
 .bienvenida .contenedor {
 	margin: 10 auto;
@@ -69,9 +60,13 @@ h3 {
   }
   
 .text {
+	padding-top: 20px;
 	font-size: 20px;
 	position: center;
 	color: #fff;
 	text-shadow: 0 0 10px rgb(10, 6, 0), 0 0 20px rgb(82, 0, 0), 0 0 30px rgb(82, 0, 0), 0 0 40px rgb(82, 82, 79), 0 0 50px #ff0;
 }
 	 
+body {
+	image-rendering: optimizeQuality;
+}
