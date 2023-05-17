@@ -13,7 +13,7 @@ var swiper = new Swiper(".swiper", {
     },
     loop: true,
     autoplay: {
-        delay: 1000, // Tiempo de espera entre cada slide en milisegundos
+        delay: 3000, // Tiempo de espera entre cada slide en milisegundos
         disableOnInteraction: true, // Permite que el autoplay continúe incluso cuando el usuario interactúa con el Swiper
       },
   });
