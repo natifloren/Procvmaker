@@ -69,66 +69,30 @@
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="css/swiper.js" ></script>
 <body>
-	
-	
-
-	
-				</p>
-			</div>
-		</div>
-</section>
-</body>
-
-
-<body>
-	<section class="seccion">
-		
-			<h4>Te gustaria recibir consejos y noticias, Subscribete!!!</h4>
-				
-			<div id="app">
-				<form @submit.prevent="submitForm">
-				  <div>
-					<label for="name">Nombre:</label>
-					<input type="text" id="name" v-model="formData.name" required>
-				  </div>
-				  <div>
-					<label for="email">Email:</label>
-					<input type="email" id="email" v-model="formData.email" required>
-				  </div>
-				  <div>
-					<label for="message">Mensaje:</label>
-					<textarea id="message" v-model="formData.message" required></textarea>
-				  </div>
-				  <button type="submit">Enviar</button>
-				</form>
-			  </div>
-			
-					<body>
-						
-                           <h4>Tips que no se te pueden escapar!!!</h4>
+     <div>
+        <h4 class="titletips">Tips que no se te pueden escapar!!!</h4>
 					
-							<ul>
-								<li>
-									<h2>Significado del CV</h2>
-									<ul>
-										<li>Resumen de vida laboral</li>
-										<li>Presentación de estudios, logros y experiencia profesional</li>
-									</ul>
-								</li>
+			<ul>
+				<li>
+				<h2>Significado del CV</h2>
+			<ul>
+				<li>Resumen de vida laboral</li>
+				<li>Presentación de estudios, logros y experiencia profesional</li>
+			</ul>
+				</li>
+					<li>
+					     <h2>Aspectos técnicos del CV</h2>
+						     <ul>
+							     <li>Conciso: ir al punto</li>
+								 <li>Claro: fácil de entender</li>
+								 <li>Sintético: un resumen</li>
+							 <ul>
+								<li>Realizar en 1 o 2 hojas</li>
+							</ul>
+			</ul>
+				</li>
 					
-								<li>
-									<h2>Aspectos técnicos del CV</h2>
-									<ul>
-										<li>Conciso: ir al punto</li>
-										<li>Claro: fácil de entender</li>
-										<li>Sintético: un resumen</li>
-										<ul>
-											<li>Realizar en 1 o 2 hojas</li>
-										</ul>
-									</ul>
-								</li>
-					
-								<li>
+					<li>
 									<h2>Pasos para elaborar el CV</h2>
 									<ul>
 										<li>Título: colocar nombre</li>
@@ -154,6 +118,29 @@
 		</div>
     </section>
 </body>
+<body>
+	<section class="seccion">
+		
+			<h4>Te gustaria recibir consejos y noticias, Subscribete!!!</h4>
+				
+			<div id="app">
+				<form @submit.prevent="submitForm">
+				  <div>
+					<label for="name">Nombre:</label>
+					<input type="text" id="name" v-model="formData.name" required>
+				  </div>
+				  <div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" v-model="formData.email" required>
+				  </div>
+				  <div>
+					<label for="message">Mensaje:</label>
+					<textarea id="message" v-model="formData.message" required></textarea>
+				  </div>
+				  <button type="submit">Enviar</button>
+				</form>
+			  </div>	
+</body>	
 
 <body>
 	 <section>
