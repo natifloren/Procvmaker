@@ -135,8 +135,7 @@ h3 {
   }
 
   .container {
-    margin-left: auto;
-    margin-right: auto;
+	margin: center;
     justify-content: center;
     align-items: center;
     background-color: rgb(228, 228, 159);
@@ -151,6 +150,7 @@ section p {
     font-family: "amiko";
     background-color: rgba(240, 240, 174, 0.728);
     transition: all .2s ease-in-out;
+	width: 600px;
 }
 
 section a {
@@ -162,6 +162,7 @@ section a {
     background-color: rgba(125, 235, 249, 0.44);
     color: white;
     border-bottom: 2px solid rgba(32, 31, 32, 0.591);
+	width: 600px;
 }
 
 section:target p {
